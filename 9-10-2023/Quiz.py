@@ -1,6 +1,6 @@
 def get_word(sentence, n):
        # Only proceed if n is not more than the number of words
-       sentence = sentence.split(" ")
+       sentence = sentence.split("words ")
        if n <= len(sentence) and n>0:
         return(sentence[n-1])  
        else:
